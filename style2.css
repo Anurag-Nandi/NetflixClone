@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin-bottom: 0px;
+}
+.login{
+    background: rgba(0,0,0,.4);
+    background-image: url(sign.jpg);
+    /* background-image: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%), url("homepg.jpg"); */
+    /* height: 100vh;
+    width: 100vw; */
+
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100% ), url("sign.jpg");
+     position: absolute;
+    top: 0;
+    
+    right: 0;
+    left: 0; 
+    background-size: cover;
+    /* background-color: black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: red;
+    font-family: 'Bebas Neue',cursive;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+.net{
+    text-decoration: none;
+}
+div h2{
+    color: white;
+    font-size: 32px;
+    
+}
+.signin{
+    text-align: center;
+    background-color: #000000bf;
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 100px;
+   margin-bottom: 100px;
+}
+.mail{
+    background-color: #333333;
+    border: 1px solid #333333;
+    
+    border-radius: 2px;
+    padding: 16px 20px 0px;
+    color: white;
+    padding-bottom: 10px;
+    text-align: start;
+    font-size: 15px;
+    width: 300px;
+    
+}
+.password{
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    padding: 16px 20px 0px;
+    color: white;
+    padding-bottom: 10px;
+    text-align: start;
+    font-size: 15px;
+    width: 300px;
+}
+.submit{
+    background-color:red ;
+    border: 1px solid red;
+    border-radius: 2px;
+    color: white;
+    margin: 24px 0px 12px;
+    padding: 16px;
+   font-weight:bolder;
+   font-size: 16px;
+   height: 16px;
+   width: 300px;
+    box-sizing:content-box;
+}
+.rem{
+    color: rgb(195, 190, 190);
+    font-size: 13px;
+   
+}
+.help{
+ margin-left: 100px ;
+ text-decoration: none;
+ color: rgb(195, 190, 190);
+ font-size: 13px;
+}
+input:focus{
+    outline: none;
+     border-bottom: 2px solid red;
+     border-radius: 3px;
+}   
+.fb{
+    
+    text-align: left;
+    font-size: 13px;
+    margin-left: 60px;
+    color: #737373;
+} 
+.fb a{
+    background-color: rgb(112, 112, 240);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    font-size: large;
+    margin-right: 8px;
+}
+.new{
+    
+    text-align: left;
+    font-size: 15px;
+    margin-left: 60px;
+    color: #737373;
+    font-size: 28;
+}
+.signup{
+    color: white;
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+
+}
+.pro{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 60px;
+    color: #737373;
+    font-size: 13px;
+}
+.pro a{
+    color: blue;
+    text-decoration: none;
+}
+.footer{
+    background-color: #000000bf;
+    color: #737373;
+   /* margin-top: 80px; */
+ padding-bottom: 15px;
+}
+.list1{
+   
+    padding-left: 30px;
+     padding-right: 5rem ;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+}
+.list2{
+    display: flex;
+    padding-left: 140px;
+    list-style: none;
+    font-size: 13px;
+
+}
+.footer p{
+
+    padding-left: 140px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.lang i{
+    color: #737373;
+}
+.lang{
+        background-color: #00000066;
+       
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 8px 22px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: #737373;
+        margin-left: 150px;
+        margin-top: 30px;
+}

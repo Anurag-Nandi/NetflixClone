@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #333;
+}
+.status{
+    background: rgba(0,0,0,.4);
+    background-image: url(homepg.jpeg);
+    height: 100vh;
+    width: 100vw;
+    
+    /* background-image: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%), url("homepg.jpg"); */
+    
+     position: absolute;
+    top: 0;
+    
+    right: 0;
+    left: 0; 
+    background-size: cover;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: red;
+    font-family: 'Bebas Neue',cursive;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+nav{
+    text-align: right;
+    
+   
+}
+
+.lang{
+background-color: #00000066;
+color: white;
+border: 1px solid white;
+border-radius: 3px;
+padding: 8px 22px;
+margin-right: 18px;
+
+
+
+}
+.sub{
+    background-color: #e50914;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 7px 17px;
+    margin-right: 28px;
+    text-decoration: none;
+
+}
+
+.topbar{
+    margin: 0px 45px;
+    padding: 8px 0px 0px;
+}
+section{
+    text-align: center;
+    color: white;
+}
+section h2{
+font-size: 20px;
+margin: 16px 0px;
+}
+section p{
+    font-size: 18px;
+    margin: 0px 23px;
+    padding: 0px 60px;
+    padding-bottom: 10px;
+}
+.mail{
+    font-size: 20px;
+    padding: 10px 10px 10px;
+    height: 30px;
+    width: 500px;
+    border: 1px solid black;
+   float: inline-start;
+}
+.Get{
+    background-color: #e50914; 
+    color: white;
+    padding: 10px 10px 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    /* margin: 15px 0px; */
+    height: 120px;
+    /* width: 150px; */ 
+    font-size:25px;
+    text-decoration: none;
+
+ }
+ .storycard img{
+     float: right;
+     height: 350px;
+ }
+ .storycard video{
+    margin-right: 90px;
+    float: right;
+}
+ .storycard h1{
+     margin-left: 80px;
+     margin-top: 90px;
+     font-size: 43px;
+ }
+.storycard{
+    background-color: black;
+    margin-top: 145px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.storycard p{
+    font-size: 25px;
+}
+.storycard1{
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.storycard1 img{
+    float: left;
+    height: 350px;
+}
+
+.storycard1 h1{
+    text-align: left;
+    /* margin-right: 90px; */
+    margin-left: 650px;
+    margin-top: 90px;
+    font-size: 43px;
+}
+.storycard1 p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 590px;
+}
+.storycard2 h1{
+    margin-left: 80px;
+    margin-top: 90px;
+    font-size: 43px;
+}
+.storycard2 img{
+    float: right;
+    height: 350px;
+}
+.storycard2 video{
+    margin-right: 90px;
+    float: right;
+}
+.storycard2{
+   background-color: black;
+   margin-top: 5px;
+   text-align: left;
+   padding-top: 50px;
+   padding-bottom: 90px;
+}
+.storycard2 p{
+   font-size: 25px;
+}
+
+.storycard2{
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.storycard3 img{
+    float: left;
+    height: 350px;
+}
+.storycard3{
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.storycard3 h1{
+    text-align: left;
+    /* margin-right: 90px; */
+    margin-left: 650px;
+    margin-top: 90px;
+    font-size: 43px;
+}
+.storycard3 p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 590px;
+}
+.faq{
+    background-color: black;
+    margin-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: left;
+}
+
+.faq h1{
+    text-align: center;
+       font-size: 43px;
+}
+.faq li{
+    padding:20px;
+    margin:10px auto;
+    list-style-type: none;
+    font-size: 25px;
+    background-color: #333;
+    /* margin-bottom:5px ; */
+    width: 60%;
+}
+.faq li::after{
+   
+    content:'+';
+    float: right;
+    clear: both;
+    font-size: 30px;
+    font-weight: 100;
+}
+.mailget{
+    text-align: center;
+    padding-top: 30px ;
+}
+
+footer{
+    background-color: black;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    color: #737373;
+   
+    
+}
+/* .list1{
+   
+    padding-left: 30px;
+     padding-right: 5rem ;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+}
+.list2{
+    display: flex;
+    padding-left: 140px;
+    list-style: none;
+    font-size: 13px;
+
+}
+.footer p{
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    
+}
+.lang1{
+    text-align: left;
+    background-color: black;
+    color: #737373;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-right: 900px;
+    padding: 10px;
+} */
+footer {
+    padding: 2rem 20rem;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .footer__row__2 {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .footer__row__1,
+  .footer__row__3,
+  .footer__row__4 {
+    align-self: flex-start;
+  }
+  footer {
+    border-top: 8px solid #333;
+    /* padding: 2rem 1rem; */
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 300px;
+  }
+  
+  .footer__row__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .footer__row__1 > h4 {
+    font-size: 15px;
+    font-weight: 500;
+    
+  }
+  
+  .footer__row__3 > .dropdown__container {
+    width: fit-content;
+    /* border: 1px solid #757575; */
+    color: #757575;
+  }
+  
+  .footer__row__3 > .dropdown__container > .language__drop__down {
+    color: #757575;
+  }
+  .language__drop__down{
+      background-color: black;
+  }
+  
+
